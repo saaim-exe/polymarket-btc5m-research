@@ -1,0 +1,19 @@
+﻿# Local Python and notebook state
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+.venv/
+
+# Local datasets; retain planning folder placeholders
+/data/raw/*
+!/data/raw/.gitkeep
+/data/interim/*
+!/data/interim/.gitkeep
+/data/processed/*
+!/data/processed/.gitkeep
+
+# Local credentials
+.env
+.env.*
+!.env.example
